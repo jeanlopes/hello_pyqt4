@@ -1,0 +1,3 @@
+# Arquivo: Makefile
+at_auto.py: at.ui
+        pyuic at.ui > at_auto.py
